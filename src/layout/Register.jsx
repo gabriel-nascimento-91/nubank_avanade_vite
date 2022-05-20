@@ -47,7 +47,7 @@ function Register() {
 				<form onSubmit={handleSubmit}>
 					<fieldset>
 						<label>
-							CPF
+							<p>CPF</p>
 							<input
 								type="text"
 								name="cpf"
@@ -59,7 +59,7 @@ function Register() {
 					</fieldset>
 					<fieldset>
 						<label>
-							Nome Completo
+							<p>Nome Completo</p>
 							<input
 								type="text"
 								name="nome"
@@ -71,7 +71,7 @@ function Register() {
 					</fieldset>
 					<fieldset>
 						<label>
-							Celular
+							<p>Celular</p>
 							<input
 								type="tel"
 								name="celular"
@@ -82,7 +82,7 @@ function Register() {
 					</fieldset>
 					<fieldset>
 						<label>
-							E-mail
+							<p>E-mail</p>
 							<input
 								type="email"
 								name="email"
@@ -94,7 +94,7 @@ function Register() {
 					</fieldset>
 					<fieldset>
 						<label>
-							Confirmação de e-mail
+							<p>Confirmação de e-mail</p>
 							<input
 								type="email"
 								name="cemail"

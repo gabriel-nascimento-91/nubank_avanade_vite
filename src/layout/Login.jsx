@@ -34,7 +34,7 @@ function Login() {
 	return (
 		<Container>
 			<Banner background>
-				<h1>Tela de Login</h1>
+				<h1>Faça seu Login</h1>
 			</Banner>
 			<Banner>
 				<form onSubmit={handleSubmit}>
